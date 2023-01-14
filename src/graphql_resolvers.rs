@@ -1,11 +1,15 @@
+use actix_session::Session;
 use async_graphql::{Context, EmptySubscription, Object, Schema};
 use diesel::{internal::table_macro::SelectStatement, QueryDsl, RunQueryDsl};
+use jsonwebtoken::{DecodingKey, Validation};
 
 use crate::{
+    extensions::Shared,
     graphql_types::{
         input_types::{FoodMenuInput, RegisterFoodAndVariants},
         output_types::FoodMenuOutput,
     },
+    jwt_claims::AuthClaims,
     models::{FoodMenuItem, NewFoodMenuItem},
     ConnectionPool,
 };
@@ -16,7 +20,33 @@ pub struct Query;
 #[Object]
 impl Query {
     async fn hello(&self) -> &'static str {
-        "Hello There"
+        "Hello from server"
+    }
+
+    async fn get_token_status(&self, ctx: &Context<'_>) -> String {
+        let session = ctx.data::<Shared<Session>>().unwrap();
+        let result = session.get::<String>("auth_token").unwrap();
+        let secret = dotenv::var("SECRET").unwrap();
+
+        if result.is_none() {
+            "You don't have a token".to_owned()
+        } else {
+            let auth_token = jsonwebtoken::decode::<AuthClaims>(
+                result.as_ref().unwrap(),
+                &DecodingKey::from_secret(secret.as_bytes()),
+                &Validation::default(),
+            );
+            
+            match auth_token {
+                Ok(token) => {
+                    serde_json::to_string(&token.claims).unwrap()
+                },
+                Err(_) => {
+                    session.remove("auth_token").unwrap();
+                    "Token is no longer valid".to_owned()
+                }
+            }
+        }
     }
 
     async fn get_registered_foods(&self, ctx: &Context<'_>) -> Vec<FoodMenuOutput> {
@@ -70,7 +100,11 @@ impl Mutation {
         "Deleted Foods"
     }
 
-    async fn delete_foods_by_name(&self, ctx: &Context<'_>, food_names: Vec<String>) -> &'static str {
+    async fn delete_foods_by_name(
+        &self,
+        ctx: &Context<'_>,
+        food_names: Vec<String>,
+    ) -> &'static str {
         "Delete Foods By Name"
     }
 }
