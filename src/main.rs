@@ -43,12 +43,13 @@ async fn graphql_api(
     req: GraphQLRequest,
 ) -> GraphQLResponse {
     let auth_token = session.get::<String>("auth_token").unwrap();
+    let session = Shared::new(session);
 
     if auth_token.is_none() {
-        schema.execute(req.into_inner()).await.into()
+        schema.execute(req.into_inner().data(session)).await.into()
     } else {
         schema
-            .execute(req.into_inner().data(auth_token.unwrap()))
+            .execute(req.into_inner().data(auth_token.unwrap()).data(session))
             .await
             .into()
     }
@@ -149,7 +150,7 @@ async fn app_service(
 
 use actix_server_backend::{
     configs::{SPAConfig, SiteConfiguration, StaticConfig},
-    extensions::{FilterOneExt, VecPathExt},
+    extensions::{FilterOneExt, Shared, VecPathExt},
     graphql_resolvers::{AppGraphQLSchema, Mutation, Query},
     jwt_claims::AuthClaims,
     param_types::AuthQueryParams,
