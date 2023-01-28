@@ -65,8 +65,6 @@ impl Default for FoodMenuItemVariant {
     }
 }
 
-pub struct FoodAndVariants {}
-
 use crate::{
     graphql_types::output_types::{FoodMenuOutput, FoodMenuVariantOutput},
     schema::{food_menu, food_variants_menu},
@@ -87,4 +85,25 @@ pub struct NewFoodMenuItemVariant<'a> {
     pub variant_name: &'a str,
     pub price: i32,
     pub stock: i32,
+}
+
+#[derive(Debug, Queryable)]
+pub struct User {
+    pub id: uuid::Uuid,
+    pub email: String,
+    pub password: String,
+    pub username: String,
+    pub admin: bool,
+    pub profile_img_link: String
+}
+
+use crate::schema::users;
+
+#[derive(Debug, Insertable)]
+#[diesel(table_name = users)]
+pub struct NewUser<'a> {
+    pub email: &'a str,
+    pub password: &'a str,
+    pub username: &'a str,
+    pub profile_img_link: &'a str
 }
