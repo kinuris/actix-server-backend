@@ -254,28 +254,30 @@ impl Mutation {
         let auth_token = session.get::<String>("auth_token").unwrap();
         let secret = dotenv::var("SECRET").unwrap();
 
-        if auth_token.is_none() {
-            return RegisterFoodVariantWithId::MustBeAdmin;
-        }
-
-        let result = jsonwebtoken::decode::<AuthClaims>(
-            auth_token.as_ref().unwrap(),
-            &DecodingKey::from_secret(secret.as_bytes()),
-            &Validation::default(),
-        );
-
-        match result {
-            Ok(token) => {
-                if !token.claims.admin {
-                    return RegisterFoodVariantWithId::MustBeAdmin;
-                }
-            }
-            Err(_) => {
-                session.remove("auth_token").unwrap();
-
+        if dotenv::var("DISABLE_AUTH").is_err() {
+            if auth_token.is_none() {
                 return RegisterFoodVariantWithId::MustBeAdmin;
             }
-        };
+    
+            let result = jsonwebtoken::decode::<AuthClaims>(
+                auth_token.as_ref().unwrap(),
+                &DecodingKey::from_secret(secret.as_bytes()),
+                &Validation::default(),
+            );
+    
+            match result {
+                Ok(token) => {
+                    if !token.claims.admin {
+                        return RegisterFoodVariantWithId::MustBeAdmin;
+                    }
+                }
+                Err(_) => {
+                    session.remove("auth_token").unwrap();
+    
+                    return RegisterFoodVariantWithId::MustBeAdmin;
+                }
+            };
+        }
 
         let connection_pool = ctx.data::<ConnectionPool>().unwrap();
         let id = id.parse::<uuid::Uuid>();
@@ -318,28 +320,30 @@ impl Mutation {
         let auth_token = session.get::<String>("auth_token").unwrap();
         let secret = dotenv::var("SECRET").unwrap();
 
-        if auth_token.is_none() {
-            return RegisterFoodStatus::Status(RegisterFoodState::MustBeAdmin.into());
-        }
-
-        let result = jsonwebtoken::decode::<AuthClaims>(
-            auth_token.as_ref().unwrap(),
-            &DecodingKey::from_secret(secret.as_bytes()),
-            &Validation::default(),
-        );
-
-        match result {
-            Ok(token) => {
-                if !token.claims.admin {
-                    return RegisterFoodStatus::Status(RegisterFoodState::MustBeAdmin.into());
-                }
-            }
-            Err(_) => {
-                session.remove("auth_token").unwrap();
-
+        if dotenv::var("DISABLE_AUTH").is_err() {
+            if auth_token.is_none() {
                 return RegisterFoodStatus::Status(RegisterFoodState::MustBeAdmin.into());
             }
-        };
+    
+            let result = jsonwebtoken::decode::<AuthClaims>(
+                auth_token.as_ref().unwrap(),
+                &DecodingKey::from_secret(secret.as_bytes()),
+                &Validation::default(),
+            );
+    
+            match result {
+                Ok(token) => {
+                    if !token.claims.admin {
+                        return RegisterFoodStatus::Status(RegisterFoodState::MustBeAdmin.into());
+                    }
+                }
+                Err(_) => {
+                    session.remove("auth_token").unwrap();
+    
+                    return RegisterFoodStatus::Status(RegisterFoodState::MustBeAdmin.into());
+                }
+            };
+        }
 
         let connection_pool = ctx.data::<ConnectionPool>().unwrap();
 
@@ -368,28 +372,30 @@ impl Mutation {
         let auth_token = session.get::<String>("auth_token").unwrap();
         let secret = dotenv::var("SECRET").unwrap();
 
-        if auth_token.is_none() {
-            return DeleteFoodStatus::MustBeAdmin;
-        }
-
-        let result = jsonwebtoken::decode::<AuthClaims>(
-            auth_token.as_ref().unwrap(),
-            &DecodingKey::from_secret(secret.as_bytes()),
-            &Validation::default(),
-        );
-
-        match result {
-            Ok(token) => {
-                if !token.claims.admin {
-                    return DeleteFoodStatus::MustBeAdmin;
-                }
-            }
-            Err(_) => {
-                session.remove("auth_token").unwrap();
-
+        if dotenv::var("DISABLE_AUTH").is_err() {
+            if auth_token.is_none() {
                 return DeleteFoodStatus::MustBeAdmin;
             }
-        };
+    
+            let result = jsonwebtoken::decode::<AuthClaims>(
+                auth_token.as_ref().unwrap(),
+                &DecodingKey::from_secret(secret.as_bytes()),
+                &Validation::default(),
+            );
+    
+            match result {
+                Ok(token) => {
+                    if !token.claims.admin {
+                        return DeleteFoodStatus::MustBeAdmin;
+                    }
+                }
+                Err(_) => {
+                    session.remove("auth_token").unwrap();
+    
+                    return DeleteFoodStatus::MustBeAdmin;
+                }
+            };
+        }
 
         let connection_pool = ctx.data::<ConnectionPool>().unwrap();
 
