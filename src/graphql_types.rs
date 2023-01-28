@@ -19,7 +19,12 @@ pub mod input_types {
 
     impl FoodMenuVariantInput {
         pub fn as_insertable(&self, id: uuid::Uuid) -> NewFoodMenuItemVariant {
-            NewFoodMenuItemVariant { food_menu_id: id, variant_name: &self.variant_name, price: self.price, stock: self.stock }
+            NewFoodMenuItemVariant {
+                food_menu_id: id,
+                variant_name: &self.variant_name,
+                price: self.price,
+                stock: self.stock,
+            }
         }
     }
 
@@ -106,13 +111,13 @@ pub mod output_types {
     #[derive(Union)]
     pub enum RegisterFoodStatus {
         Status(RegisterFoodStateWrapper),
-        Message(StringWrapper)
+        Message(StringWrapper),
     }
 
     // SUGGESTION: Put wrappers in their own module
     #[derive(SimpleObject)]
     pub struct RegisterFoodStateWrapper {
-        pub state: RegisterFoodState
+        pub state: RegisterFoodState,
     }
 
     impl From<RegisterFoodState> for RegisterFoodStateWrapper {
@@ -123,7 +128,7 @@ pub mod output_types {
 
     #[derive(SimpleObject)]
     pub struct StringWrapper {
-        pub state: String
+        pub state: String,
     }
 
     impl From<String> for StringWrapper {
@@ -134,7 +139,7 @@ pub mod output_types {
 
     #[derive(Enum, Copy, Clone, PartialEq, Eq, Debug)]
     pub enum RegisterFoodState {
-        MustBeAdmin
+        MustBeAdmin,
     }
 
     #[derive(Enum, Copy, Clone, PartialEq, Eq, Debug)]
