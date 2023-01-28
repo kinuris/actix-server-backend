@@ -18,6 +18,21 @@ diesel::table! {
     }
 }
 
+diesel::table! {
+    users (id) {
+        id -> Uuid,
+        email -> Text,
+        password -> Text,
+        username -> Varchar,
+        admin -> Bool,
+        profile_img_link -> Text,
+    }
+}
+
 diesel::joinable!(food_variants_menu -> food_menu (food_menu_id));
 
-diesel::allow_tables_to_appear_in_same_query!(food_menu, food_variants_menu,);
+diesel::allow_tables_to_appear_in_same_query!(
+    food_menu,
+    food_variants_menu,
+    users,
+);
