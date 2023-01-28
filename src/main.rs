@@ -166,15 +166,7 @@ use diesel::{
 };
 use jsonwebtoken::{DecodingKey, EncodingKey, Header, Validation};
 
-#[actix_web::main]
-async fn main() -> std::io::Result<()> {
-    let db_url = dotenv::var("DATABASE_URL").expect("DATABASE_URL must be set in .env file!");
-    let manager = ConnectionManager::<PgConnection>::new(db_url);
-    let connection_pool: ConnectionPool = Pool::builder()
-        .test_on_check_out(true)
-        .build(manager)
-        .expect("Could not build connection pool!");
-
+fn get_site_config() -> SiteConfiguration {
     let mut site_configuration = SiteConfiguration::new();
 
     let mut snake_config = SPAConfig::new("snake");
@@ -186,7 +178,19 @@ async fn main() -> std::io::Result<()> {
     site_configuration.add_static(qwik_test_config);
     site_configuration.add_spa(snake_config);
 
-    let site_configuration = web::Data::new(site_configuration);
+    site_configuration
+}
+
+#[actix_web::main]
+async fn main() -> std::io::Result<()> {
+    let db_url = dotenv::var("DATABASE_URL").expect("DATABASE_URL must be set in .env file!");
+    let manager = ConnectionManager::<PgConnection>::new(db_url);
+    let connection_pool: ConnectionPool = Pool::builder()
+        .test_on_check_out(true)
+        .build(manager)
+        .expect("Could not build connection pool!");
+
+    let site_configuration = web::Data::new(get_site_config());
 
     let schema: AppGraphQLSchema = Schema::build(Query, Mutation, EmptySubscription)
         .data(connection_pool.clone())
