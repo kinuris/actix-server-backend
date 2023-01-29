@@ -1,0 +1,1314 @@
+{
+  "symbols": {
+    "s_DVMPoyljbY8": {
+      "origin": "routes/react/index.tsx",
+      "displayName": "react_component__Fragment_button_onClick",
+      "canonicalFilename": "s_dvmpoyljby8",
+      "hash": "DVMPoyljbY8",
+      "ctxKind": "event",
+      "ctxName": "onClick$",
+      "captures": true,
+      "parent": "s_i4frY0Pt5lk"
+    },
+    "s_hA9UPaY8sNQ": {
+      "origin": "../node_modules/@builder.io/qwik-city/index.qwik.mjs",
+      "displayName": "Link_component_a_onClick",
+      "canonicalFilename": "s_ha9upay8snq",
+      "hash": "hA9UPaY8sNQ",
+      "ctxKind": "event",
+      "ctxName": "onClick$",
+      "captures": true,
+      "parent": "s_mYsiJcA4IBc"
+    },
+    "s_skxgNVWVOT8": {
+      "origin": "../node_modules/@builder.io/qwik-city/index.qwik.mjs",
+      "displayName": "Link_component_a_onMouseOver",
+      "canonicalFilename": "s_skxgnvwvot8",
+      "hash": "skxgNVWVOT8",
+      "ctxKind": "event",
+      "ctxName": "onMouseOver$",
+      "captures": false,
+      "parent": "s_mYsiJcA4IBc"
+    },
+    "s_dznIGAlrcag": {
+      "origin": "routes/flower/index.tsx",
+      "displayName": "flower_component__Fragment_input_onInput",
+      "canonicalFilename": "s_dznigalrcag",
+      "hash": "dznIGAlrcag",
+      "ctxKind": "event",
+      "ctxName": "onInput$",
+      "captures": true,
+      "parent": "s_OW4nu0I1yZ8"
+    },
+    "s_CwHr1soCFpo": {
+      "origin": "routes/react/index.tsx",
+      "displayName": "react_component__Fragment_MUISlider_onChange",
+      "canonicalFilename": "s_cwhr1socfpo",
+      "hash": "CwHr1soCFpo",
+      "ctxKind": "event",
+      "ctxName": "onChange$",
+      "captures": true,
+      "parent": "s_i4frY0Pt5lk"
+    },
+    "s_ajMyuRH1aws": {
+      "origin": "routes/react/index.tsx",
+      "displayName": "react_component__Fragment_select_onChange",
+      "canonicalFilename": "s_ajmyurh1aws",
+      "hash": "ajMyuRH1aws",
+      "ctxKind": "event",
+      "ctxName": "onChange$",
+      "captures": true,
+      "parent": "s_i4frY0Pt5lk"
+    },
+    "s_0TpDEaIm2Eg": {
+      "origin": "routes/react/index.tsx",
+      "displayName": "react_component__Fragment_MUIButton_host_onClick",
+      "canonicalFilename": "s_0tpdeaim2eg",
+      "hash": "0TpDEaIm2Eg",
+      "ctxKind": "event",
+      "ctxName": "host:onClick$",
+      "captures": false,
+      "parent": "s_i4frY0Pt5lk"
+    },
+    "s_uVE5iM9H73c": {
+      "origin": "../node_modules/@builder.io/qwik-city/index.qwik.mjs",
+      "displayName": "Link_component_a_onQVisible",
+      "canonicalFilename": "s_uve5im9h73c",
+      "hash": "uVE5iM9H73c",
+      "ctxKind": "event",
+      "ctxName": "onQVisible$",
+      "captures": false,
+      "parent": "s_mYsiJcA4IBc"
+    },
+    "s_AaAlzKH0KlQ": {
+      "origin": "../node_modules/@builder.io/qwik-city/index.qwik.mjs",
+      "displayName": "QwikCity_component_useWatch",
+      "canonicalFilename": "s_aaalzkh0klq",
+      "hash": "AaAlzKH0KlQ",
+      "ctxKind": "function",
+      "ctxName": "useWatch$",
+      "captures": true,
+      "parent": "s_z1nvHyEppoI"
+    },
+    "s_x04JC5xeP1U": {
+      "origin": "../node_modules/@builder.io/qwik-react/lib/index.qwik.mjs",
+      "displayName": "qwikifyQrl_component_useWatch",
+      "canonicalFilename": "s_x04jc5xep1u",
+      "hash": "x04JC5xeP1U",
+      "ctxKind": "function",
+      "ctxName": "useWatch$",
+      "captures": true,
+      "parent": "s_zH94hIe0Ick"
+    },
+    "s_V0Y6u0VD1eY": {
+      "origin": "routes/flower/index.tsx",
+      "displayName": "flower_component_useClientEffect",
+      "canonicalFilename": "s_v0y6u0vd1ey",
+      "hash": "V0Y6u0VD1eY",
+      "ctxKind": "function",
+      "ctxName": "useClientEffect$",
+      "captures": true,
+      "parent": "s_OW4nu0I1yZ8"
+    },
+    "s_3sccYCDd1Z0": {
+      "origin": "root.tsx",
+      "displayName": "root_component",
+      "canonicalFilename": "s_3sccycdd1z0",
+      "hash": "3sccYCDd1Z0",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false
+    },
+    "s_OW4nu0I1yZ8": {
+      "origin": "routes/flower/index.tsx",
+      "displayName": "flower_component",
+      "canonicalFilename": "s_ow4nu0i1yz8",
+      "hash": "OW4nu0I1yZ8",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false
+    },
+    "s_VkLNXphUh5s": {
+      "origin": "routes/layout.tsx",
+      "displayName": "layout_component",
+      "canonicalFilename": "s_vklnxphuh5s",
+      "hash": "VkLNXphUh5s",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false
+    },
+    "s_ceU05TscGYE": {
+      "origin": "components/header/header.tsx",
+      "displayName": "header_component",
+      "canonicalFilename": "s_ceu05tscgye",
+      "hash": "ceU05TscGYE",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false
+    },
+    "s_i4frY0Pt5lk": {
+      "origin": "routes/react/index.tsx",
+      "displayName": "react_component",
+      "canonicalFilename": "s_i4fry0pt5lk",
+      "hash": "i4frY0Pt5lk",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false
+    },
+    "s_mYsiJcA4IBc": {
+      "origin": "../node_modules/@builder.io/qwik-city/index.qwik.mjs",
+      "displayName": "Link_component",
+      "canonicalFilename": "s_mysijca4ibc",
+      "hash": "mYsiJcA4IBc",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false
+    },
+    "s_nd8yk3KO22c": {
+      "origin": "../node_modules/@builder.io/qwik-city/index.qwik.mjs",
+      "displayName": "RouterOutlet_component",
+      "canonicalFilename": "s_nd8yk3ko22c",
+      "hash": "nd8yk3KO22c",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false
+    },
+    "s_xYL1qOwPyDI": {
+      "origin": "routes/index.tsx",
+      "displayName": "routes_component",
+      "canonicalFilename": "s_xyl1qowpydi",
+      "hash": "xYL1qOwPyDI",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false
+    },
+    "s_z1nvHyEppoI": {
+      "origin": "../node_modules/@builder.io/qwik-city/index.qwik.mjs",
+      "displayName": "QwikCity_component",
+      "canonicalFilename": "s_z1nvhyeppoi",
+      "hash": "z1nvHyEppoI",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false
+    },
+    "s_zH94hIe0Ick": {
+      "origin": "../node_modules/@builder.io/qwik-react/lib/index.qwik.mjs",
+      "displayName": "qwikifyQrl_component",
+      "canonicalFilename": "s_zh94hie0ick",
+      "hash": "zH94hIe0Ick",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": true
+    },
+    "s_zrbrqoaqXSY": {
+      "origin": "components/router-head/router-head.tsx",
+      "displayName": "RouterHead_component",
+      "canonicalFilename": "s_zrbrqoaqxsy",
+      "hash": "zrbrqoaqXSY",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false
+    },
+    "s_hO3b5j0m2ZI": {
+      "origin": "root.tsx",
+      "displayName": "root_component_useStyles",
+      "canonicalFilename": "s_ho3b5j0m2zi",
+      "hash": "hO3b5j0m2ZI",
+      "ctxKind": "function",
+      "ctxName": "useStyles$",
+      "captures": false,
+      "parent": "s_3sccYCDd1Z0"
+    },
+    "s_N39ca0w8E8Y": {
+      "origin": "components/header/header.tsx",
+      "displayName": "header_component_useStylesScoped",
+      "canonicalFilename": "s_n39ca0w8e8y",
+      "hash": "N39ca0w8E8Y",
+      "ctxKind": "function",
+      "ctxName": "useStylesScoped$",
+      "captures": false,
+      "parent": "s_ceU05TscGYE"
+    },
+    "s_bHjzplUVBNo": {
+      "origin": "../node_modules/@builder.io/qwik-react/lib/index.qwik.mjs",
+      "displayName": "qwikifyQrl_component_useStylesScoped",
+      "canonicalFilename": "s_bhjzpluvbno",
+      "hash": "bHjzplUVBNo",
+      "ctxKind": "function",
+      "ctxName": "useStylesScoped$",
+      "captures": false,
+      "parent": "s_zH94hIe0Ick"
+    },
+    "s_p4UiTwsJc7c": {
+      "origin": "routes/flower/index.tsx",
+      "displayName": "flower_component_useStylesScoped",
+      "canonicalFilename": "s_p4uitwsjc7c",
+      "hash": "p4UiTwsJc7c",
+      "ctxKind": "function",
+      "ctxName": "useStylesScoped$",
+      "captures": false,
+      "parent": "s_OW4nu0I1yZ8"
+    },
+    "s_2XxI5peAEOQ": {
+      "origin": "integrations/react/mui.tsx",
+      "displayName": "MUISlider_qwikify",
+      "canonicalFilename": "s_2xxi5peaeoq",
+      "hash": "2XxI5peAEOQ",
+      "ctxKind": "function",
+      "ctxName": "qwikify$",
+      "captures": false
+    },
+    "s_6LYztwGzxAA": {
+      "origin": "../node_modules/@builder.io/qwik-react/lib/index.qwik.mjs",
+      "displayName": "useWakeupSignal_activate",
+      "canonicalFilename": "s_6lyztwgzxaa",
+      "hash": "6LYztwGzxAA",
+      "ctxKind": "function",
+      "ctxName": "activate",
+      "captures": true
+    },
+    "s_GmEZMGhx0kI": {
+      "origin": "integrations/react/mui.tsx",
+      "displayName": "Rando_qwikify",
+      "canonicalFilename": "s_gmezmghx0ki",
+      "hash": "GmEZMGhx0kI",
+      "ctxKind": "function",
+      "ctxName": "qwikify$",
+      "captures": false
+    },
+    "s_Hd8r0YexMcY": {
+      "origin": "integrations/react/mui.tsx",
+      "displayName": "MUIButton_qwikify",
+      "canonicalFilename": "s_hd8r0yexmcy",
+      "hash": "Hd8r0YexMcY",
+      "ctxKind": "function",
+      "ctxName": "qwikify$",
+      "captures": false
+    },
+    "s_LQzPP0B5Rtk": {
+      "origin": "integrations/react/mui.tsx",
+      "displayName": "TableApp_qwikify",
+      "canonicalFilename": "s_lqzpp0b5rtk",
+      "hash": "LQzPP0B5Rtk",
+      "ctxKind": "function",
+      "ctxName": "qwikify$",
+      "captures": false
+    }
+  },
+  "mapping": {
+    "s_DVMPoyljbY8": "q-f0b8da33.js",
+    "s_hA9UPaY8sNQ": "q-b35e44bd.js",
+    "s_skxgNVWVOT8": "q-b35e44bd.js",
+    "s_dznIGAlrcag": "q-cb7336ca.js",
+    "s_CwHr1soCFpo": "q-f0b8da33.js",
+    "s_ajMyuRH1aws": "q-f0b8da33.js",
+    "s_0TpDEaIm2Eg": "q-f0b8da33.js",
+    "s_uVE5iM9H73c": "q-b35e44bd.js",
+    "s_AaAlzKH0KlQ": "q-ed292abc.js",
+    "s_x04JC5xeP1U": "q-4bf12bfa.js",
+    "s_V0Y6u0VD1eY": "q-cb7336ca.js",
+    "s_3sccYCDd1Z0": "q-cb129d7f.js",
+    "s_OW4nu0I1yZ8": "q-cb7336ca.js",
+    "s_VkLNXphUh5s": "q-73461fc9.js",
+    "s_ceU05TscGYE": "q-3e577dc2.js",
+    "s_i4frY0Pt5lk": "q-f0b8da33.js",
+    "s_mYsiJcA4IBc": "q-b35e44bd.js",
+    "s_nd8yk3KO22c": "q-4834acc3.js",
+    "s_xYL1qOwPyDI": "q-99fe9dc0.js",
+    "s_z1nvHyEppoI": "q-ed292abc.js",
+    "s_zH94hIe0Ick": "q-4bf12bfa.js",
+    "s_zrbrqoaqXSY": "q-d9dd92b1.js",
+    "s_hO3b5j0m2ZI": "q-cb129d7f.js",
+    "s_N39ca0w8E8Y": "q-3e577dc2.js",
+    "s_bHjzplUVBNo": "q-4bf12bfa.js",
+    "s_p4UiTwsJc7c": "q-cb7336ca.js",
+    "s_2XxI5peAEOQ": "q-914a6c6a.js",
+    "s_6LYztwGzxAA": "q-b7f61013.js",
+    "s_GmEZMGhx0kI": "q-a2d630bc.js",
+    "s_Hd8r0YexMcY": "q-b8750d52.js",
+    "s_LQzPP0B5Rtk": "q-ea375946.js"
+  },
+  "bundles": {
+    "q-1504dcfa.js": {
+      "size": 226,
+      "imports": [
+        "q-5bbf9964.js"
+      ],
+      "dynamicImports": [
+        "q-f0b8da33.js"
+      ],
+      "origins": [
+        "src/routes/react/index.tsx"
+      ]
+    },
+    "q-1d4e3858.js": {
+      "size": 2536,
+      "origins": [
+        "node_modules/@builder.io/qwik-city/service-worker.mjs",
+        "src/routes/service-worker.ts"
+      ]
+    },
+    "q-21361a47.js": {
+      "size": 305,
+      "imports": [
+        "q-5bbf9964.js"
+      ],
+      "dynamicImports": [
+        "q-99fe9dc0.js"
+      ],
+      "origins": [
+        "src/routes/index.tsx"
+      ]
+    },
+    "q-3e577dc2.js": {
+      "size": 4086,
+      "imports": [
+        "q-5bbf9964.js"
+      ],
+      "origins": [
+        "src/components/header/header.css?used&inline",
+        "src/components/icons/qwik.tsx",
+        "src/entry_header.js",
+        "src/s_ceu05tscgye.js",
+        "src/s_n39ca0w8e8y.js"
+      ],
+      "symbols": [
+        "s_ceU05TscGYE",
+        "s_N39ca0w8E8Y"
+      ]
+    },
+    "q-4834acc3.js": {
+      "size": 269,
+      "imports": [
+        "q-5bbf9964.js",
+        "q-cb129d7f.js"
+      ],
+      "origins": [
+        "src/entry_RouterOutlet.js",
+        "src/s_nd8yk3ko22c.js"
+      ],
+      "symbols": [
+        "s_nd8yk3KO22c"
+      ]
+    },
+    "q-4b916990.js": {
+      "size": 48049,
+      "imports": [
+        "q-f0b8da33.js"
+      ],
+      "origins": [
+        "node_modules/@babel/runtime/helpers/esm/extends.js",
+        "node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js",
+        "node_modules/@emotion/cache/dist/emotion-cache.browser.esm.js",
+        "node_modules/@emotion/hash/dist/emotion-hash.esm.js",
+        "node_modules/@emotion/is-prop-valid/dist/emotion-is-prop-valid.esm.js",
+        "node_modules/@emotion/memoize/dist/emotion-memoize.esm.js",
+        "node_modules/@emotion/react/dist/emotion-element-6a883da9.browser.esm.js",
+        "node_modules/@emotion/serialize/dist/emotion-serialize.browser.esm.js",
+        "node_modules/@emotion/sheet/dist/emotion-sheet.browser.esm.js",
+        "node_modules/@emotion/styled/base/dist/emotion-styled-base.browser.esm.js",
+        "node_modules/@emotion/styled/dist/emotion-styled.browser.esm.js",
+        "node_modules/@emotion/unitless/dist/emotion-unitless.esm.js",
+        "node_modules/@emotion/use-insertion-effect-with-fallbacks/dist/emotion-use-insertion-effect-with-fallbacks.browser.esm.js",
+        "node_modules/@emotion/utils/dist/emotion-utils.browser.esm.js",
+        "node_modules/@mui/material/esm/colors/blue.js",
+        "node_modules/@mui/material/esm/colors/common.js",
+        "node_modules/@mui/material/esm/colors/green.js",
+        "node_modules/@mui/material/esm/colors/grey.js",
+        "node_modules/@mui/material/esm/colors/lightBlue.js",
+        "node_modules/@mui/material/esm/colors/orange.js",
+        "node_modules/@mui/material/esm/colors/purple.js",
+        "node_modules/@mui/material/esm/colors/red.js",
+        "node_modules/@mui/material/esm/styles/createMixins.js",
+        "node_modules/@mui/material/esm/styles/createPalette.js",
+        "node_modules/@mui/material/esm/styles/createTheme.js",
+        "node_modules/@mui/material/esm/styles/createTransitions.js",
+        "node_modules/@mui/material/esm/styles/createTypography.js",
+        "node_modules/@mui/material/esm/styles/defaultTheme.js",
+        "node_modules/@mui/material/esm/styles/shadows.js",
+        "node_modules/@mui/material/esm/styles/styled.js",
+        "node_modules/@mui/material/esm/styles/useThemeProps.js",
+        "node_modules/@mui/material/esm/styles/zIndex.js",
+        "node_modules/@mui/private-theming/useTheme/ThemeContext.js",
+        "node_modules/@mui/private-theming/useTheme/useTheme.js",
+        "node_modules/@mui/styled-engine/index.js",
+        "node_modules/@mui/system/esm/borders.js",
+        "node_modules/@mui/system/esm/breakpoints.js",
+        "node_modules/@mui/system/esm/colorManipulator.js",
+        "node_modules/@mui/system/esm/compose.js",
+        "node_modules/@mui/system/esm/createStyled.js",
+        "node_modules/@mui/system/esm/createTheme/createBreakpoints.js",
+        "node_modules/@mui/system/esm/createTheme/createSpacing.js",
+        "node_modules/@mui/system/esm/createTheme/createTheme.js",
+        "node_modules/@mui/system/esm/createTheme/shape.js",
+        "node_modules/@mui/system/esm/cssGrid.js",
+        "node_modules/@mui/system/esm/display.js",
+        "node_modules/@mui/system/esm/flexbox.js",
+        "node_modules/@mui/system/esm/getThemeValue.js",
+        "node_modules/@mui/system/esm/memoize.js",
+        "node_modules/@mui/system/esm/merge.js",
+        "node_modules/@mui/system/esm/palette.js",
+        "node_modules/@mui/system/esm/positions.js",
+        "node_modules/@mui/system/esm/propsToClassKey.js",
+        "node_modules/@mui/system/esm/shadows.js",
+        "node_modules/@mui/system/esm/sizing.js",
+        "node_modules/@mui/system/esm/spacing.js",
+        "node_modules/@mui/system/esm/style.js",
+        "node_modules/@mui/system/esm/styleFunctionSx/styleFunctionSx.js",
+        "node_modules/@mui/system/esm/typography.js",
+        "node_modules/@mui/system/esm/useTheme.js",
+        "node_modules/@mui/system/esm/useThemeProps/getThemeProps.js",
+        "node_modules/@mui/system/esm/useThemeProps/useThemeProps.js",
+        "node_modules/@mui/system/esm/useThemeWithoutDefault.js",
+        "node_modules/@mui/utils/esm/ClassNameGenerator/ClassNameGenerator.js",
+        "node_modules/@mui/utils/esm/capitalize.js",
+        "node_modules/@mui/utils/esm/composeClasses/composeClasses.js",
+        "node_modules/@mui/utils/esm/deepmerge.js",
+        "node_modules/@mui/utils/esm/formatMuiErrorMessage.js",
+        "node_modules/@mui/utils/esm/generateUtilityClass/generateUtilityClass.js",
+        "node_modules/@mui/utils/esm/generateUtilityClasses/generateUtilityClasses.js",
+        "node_modules/@mui/utils/esm/resolveProps.js",
+        "node_modules/@mui/utils/esm/setRef.js",
+        "node_modules/@mui/utils/esm/useEnhancedEffect.js",
+        "node_modules/@mui/utils/esm/useEventCallback.js",
+        "node_modules/@mui/utils/esm/useForkRef.js",
+        "node_modules/@mui/utils/esm/useIsFocusVisible.js",
+        "node_modules/clsx/dist/clsx.m.js",
+        "node_modules/stylis/src/Enum.js",
+        "node_modules/stylis/src/Middleware.js",
+        "node_modules/stylis/src/Parser.js",
+        "node_modules/stylis/src/Serializer.js",
+        "node_modules/stylis/src/Tokenizer.js",
+        "node_modules/stylis/src/Utility.js"
+      ]
+    },
+    "q-4bf12bfa.js": {
+      "size": 1429,
+      "imports": [
+        "q-5bbf9964.js",
+        "q-84340f44.js",
+        "q-f0b8da33.js"
+      ],
+      "origins": [
+        "\u0000/home/chris/Programs/Javascript/qwik-test-app/node_modules/react-dom/client.js?commonjs-exports",
+        "node_modules/react-dom/client.js",
+        "src/entry_qwikifyQrl.js",
+        "src/s_bhjzpluvbno.js",
+        "src/s_x04jc5xep1u.js",
+        "src/s_zh94hie0ick.js"
+      ],
+      "symbols": [
+        "s_bHjzplUVBNo",
+        "s_x04JC5xeP1U",
+        "s_zH94hIe0Ick"
+      ]
+    },
+    "q-5bbf9964.js": {
+      "size": 43313,
+      "dynamicImports": [
+        "q-cb129d7f.js"
+      ],
+      "origins": [
+        "\u0000vite/preload-helper",
+        "node_modules/@builder.io/qwik/core.min.mjs",
+        "src/root.tsx"
+      ]
+    },
+    "q-64d3db07.js": {
+      "size": 924,
+      "imports": [
+        "q-f0b8da33.js"
+      ],
+      "origins": [
+        "\u0000/home/chris/Programs/Javascript/qwik-test-app/node_modules/react/cjs/react-jsx-runtime.production.min.js?commonjs-exports",
+        "\u0000/home/chris/Programs/Javascript/qwik-test-app/node_modules/react/jsx-runtime.js?commonjs-module",
+        "node_modules/react/cjs/react-jsx-runtime.production.min.js",
+        "node_modules/react/jsx-runtime.js"
+      ]
+    },
+    "q-6605d321.js": {
+      "size": 22526,
+      "imports": [
+        "q-4b916990.js",
+        "q-64d3db07.js",
+        "q-f0b8da33.js"
+      ],
+      "origins": [
+        "\u0000/home/chris/Programs/Javascript/qwik-test-app/node_modules/hoist-non-react-statics/node_modules/react-is/cjs/react-is.production.min.js?commonjs-exports",
+        "\u0000/home/chris/Programs/Javascript/qwik-test-app/node_modules/hoist-non-react-statics/node_modules/react-is/index.js?commonjs-module",
+        "node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js",
+        "node_modules/@babel/runtime/helpers/esm/inheritsLoose.js",
+        "node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js",
+        "node_modules/@emotion/react/dist/emotion-react.browser.esm.js",
+        "node_modules/@mui/material/esm/Button/Button.js",
+        "node_modules/@mui/material/esm/Button/buttonClasses.js",
+        "node_modules/@mui/material/esm/ButtonBase/ButtonBase.js",
+        "node_modules/@mui/material/esm/ButtonBase/Ripple.js",
+        "node_modules/@mui/material/esm/ButtonBase/TouchRipple.js",
+        "node_modules/@mui/material/esm/ButtonBase/buttonBaseClasses.js",
+        "node_modules/@mui/material/esm/ButtonBase/touchRippleClasses.js",
+        "node_modules/@mui/material/esm/ButtonGroup/ButtonGroupContext.js",
+        "node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+        "node_modules/hoist-non-react-statics/node_modules/react-is/cjs/react-is.production.min.js",
+        "node_modules/hoist-non-react-statics/node_modules/react-is/index.js",
+        "node_modules/react-transition-group/esm/TransitionGroup.js",
+        "node_modules/react-transition-group/esm/TransitionGroupContext.js",
+        "node_modules/react-transition-group/esm/utils/ChildMapping.js"
+      ]
+    },
+    "q-73461fc9.js": {
+      "size": 420,
+      "imports": [
+        "q-5bbf9964.js"
+      ],
+      "dynamicImports": [
+        "q-3e577dc2.js"
+      ],
+      "origins": [
+        "src/components/header/header.tsx",
+        "src/entry_layout.js",
+        "src/s_vklnxphuh5s.js"
+      ],
+      "symbols": [
+        "s_VkLNXphUh5s"
+      ]
+    },
+    "q-74c9cd41.js": {
+      "size": 2049,
+      "imports": [
+        "q-4b916990.js",
+        "q-f0b8da33.js"
+      ],
+      "origins": [
+        "node_modules/@mui/base/utils/appendOwnerState.js",
+        "node_modules/@mui/base/utils/extractEventHandlers.js",
+        "node_modules/@mui/base/utils/isHostComponent.js",
+        "node_modules/@mui/base/utils/mergeSlotProps.js",
+        "node_modules/@mui/base/utils/omitEventHandlers.js",
+        "node_modules/@mui/base/utils/resolveComponentProps.js",
+        "node_modules/@mui/base/utils/useSlotProps.js",
+        "node_modules/@mui/material/esm/styles/useTheme.js",
+        "node_modules/@mui/material/esm/utils/shouldSpreadAdditionalProps.js",
+        "node_modules/@mui/utils/esm/ownerDocument.js",
+        "node_modules/@mui/utils/esm/useControlled.js"
+      ]
+    },
+    "q-84340f44.js": {
+      "size": 134524,
+      "imports": [
+        "q-f0b8da33.js"
+      ],
+      "origins": [
+        "\u0000/home/chris/Programs/Javascript/qwik-test-app/node_modules/react-dom/cjs/react-dom.production.min.js?commonjs-exports",
+        "\u0000/home/chris/Programs/Javascript/qwik-test-app/node_modules/react-dom/index.js?commonjs-module",
+        "\u0000/home/chris/Programs/Javascript/qwik-test-app/node_modules/scheduler/cjs/scheduler.production.min.js?commonjs-exports",
+        "\u0000/home/chris/Programs/Javascript/qwik-test-app/node_modules/scheduler/index.js?commonjs-module",
+        "node_modules/react-dom/cjs/react-dom.production.min.js",
+        "node_modules/react-dom/index.js",
+        "node_modules/scheduler/cjs/scheduler.production.min.js",
+        "node_modules/scheduler/index.js"
+      ]
+    },
+    "q-8c033291.js": {
+      "size": 185,
+      "imports": [
+        "q-5bbf9964.js"
+      ],
+      "dynamicImports": [
+        "q-73461fc9.js"
+      ],
+      "origins": [
+        "src/routes/layout.tsx"
+      ]
+    },
+    "q-914a6c6a.js": {
+      "size": 19101,
+      "imports": [
+        "q-4b916990.js",
+        "q-5bbf9964.js",
+        "q-64d3db07.js",
+        "q-74c9cd41.js",
+        "q-f0b8da33.js"
+      ],
+      "origins": [
+        "node_modules/@mui/base/SliderUnstyled/SliderUnstyled.js",
+        "node_modules/@mui/base/SliderUnstyled/SliderValueLabelUnstyled.js",
+        "node_modules/@mui/base/SliderUnstyled/sliderUnstyledClasses.js",
+        "node_modules/@mui/base/SliderUnstyled/useSlider.js",
+        "node_modules/@mui/material/esm/Slider/Slider.js",
+        "node_modules/@mui/utils/esm/visuallyHidden.js",
+        "src/entry_MUISlider.js",
+        "src/s_2xxi5peaeoq.js"
+      ],
+      "symbols": [
+        "s_2XxI5peAEOQ"
+      ]
+    },
+    "q-91f13216.js": {
+      "size": 112,
+      "imports": [
+        "q-5bbf9964.js"
+      ],
+      "dynamicImports": [
+        "q-1d4e3858.js"
+      ],
+      "origins": [
+        "@qwik-city-entries"
+      ]
+    },
+    "q-99fe9dc0.js": {
+      "size": 2896,
+      "imports": [
+        "q-5bbf9964.js",
+        "q-cb129d7f.js"
+      ],
+      "origins": [
+        "src/entry_routes.js",
+        "src/s_xyl1qowpydi.js"
+      ],
+      "symbols": [
+        "s_xYL1qOwPyDI"
+      ]
+    },
+    "q-a2d630bc.js": {
+      "size": 334,
+      "imports": [
+        "q-5bbf9964.js",
+        "q-64d3db07.js",
+        "q-f0b8da33.js"
+      ],
+      "origins": [
+        "src/entry_Rando.js",
+        "src/integrations/react/Rando.tsx",
+        "src/s_gmezmghx0ki.js"
+      ],
+      "symbols": [
+        "s_GmEZMGhx0kI"
+      ]
+    },
+    "q-b35e44bd.js": {
+      "size": 850,
+      "imports": [
+        "q-5bbf9964.js",
+        "q-cb129d7f.js"
+      ],
+      "origins": [
+        "src/entry_Link.js",
+        "src/s_ha9upay8snq.js",
+        "src/s_mysijca4ibc.js",
+        "src/s_skxgnvwvot8.js",
+        "src/s_uve5im9h73c.js"
+      ],
+      "symbols": [
+        "s_hA9UPaY8sNQ",
+        "s_mYsiJcA4IBc",
+        "s_skxgNVWVOT8",
+        "s_uVE5iM9H73c"
+      ]
+    },
+    "q-b7f61013.js": {
+      "size": 109,
+      "imports": [
+        "q-5bbf9964.js"
+      ],
+      "origins": [
+        "src/entry_useWakeupSignal.js",
+        "src/s_6lyztwgzxaa.js"
+      ],
+      "symbols": [
+        "s_6LYztwGzxAA"
+      ]
+    },
+    "q-b8750d52.js": {
+      "size": 170,
+      "imports": [
+        "q-4b916990.js",
+        "q-5bbf9964.js",
+        "q-64d3db07.js",
+        "q-6605d321.js",
+        "q-f0b8da33.js"
+      ],
+      "origins": [
+        "src/entry_MUIButton.js",
+        "src/s_hd8r0yexmcy.js"
+      ],
+      "symbols": [
+        "s_Hd8r0YexMcY"
+      ]
+    },
+    "q-cb129d7f.js": {
+      "size": 6094,
+      "imports": [
+        "q-5bbf9964.js"
+      ],
+      "dynamicImports": [
+        "q-4834acc3.js",
+        "q-b35e44bd.js",
+        "q-d9dd92b1.js",
+        "q-ed292abc.js"
+      ],
+      "origins": [
+        "@qwik-city-sw-register",
+        "node_modules/@builder.io/qwik-city/index.qwik.mjs",
+        "src/components/router-head/router-head.tsx",
+        "src/entry_root.js",
+        "src/global.css?used&inline",
+        "src/s_3sccycdd1z0.js",
+        "src/s_ho3b5j0m2zi.js"
+      ],
+      "symbols": [
+        "s_3sccYCDd1Z0",
+        "s_hO3b5j0m2ZI"
+      ]
+    },
+    "q-cb7336ca.js": {
+      "size": 2475,
+      "imports": [
+        "q-5bbf9964.js",
+        "q-cb129d7f.js"
+      ],
+      "origins": [
+        "src/entry_flower.js",
+        "src/routes/flower/flower.css?used&inline",
+        "src/s_dznigalrcag.js",
+        "src/s_ow4nu0i1yz8.js",
+        "src/s_p4uitwsjc7c.js",
+        "src/s_v0y6u0vd1ey.js"
+      ],
+      "symbols": [
+        "s_dznIGAlrcag",
+        "s_OW4nu0I1yZ8",
+        "s_p4UiTwsJc7c",
+        "s_V0Y6u0VD1eY"
+      ]
+    },
+    "q-d2a1530f.js": {
+      "size": 58,
+      "imports": [
+        "q-5bbf9964.js"
+      ]
+    },
+    "q-d3eac568.js": {
+      "size": 759,
+      "imports": [
+        "q-5bbf9964.js"
+      ],
+      "dynamicImports": [
+        "q-1504dcfa.js",
+        "q-21361a47.js",
+        "q-8c033291.js",
+        "q-91f13216.js",
+        "q-dc2d4886.js"
+      ],
+      "origins": [
+        "@qwik-city-plan"
+      ]
+    },
+    "q-d9dd92b1.js": {
+      "size": 632,
+      "imports": [
+        "q-5bbf9964.js",
+        "q-cb129d7f.js"
+      ],
+      "origins": [
+        "src/entry_RouterHead.js",
+        "src/s_zrbrqoaqxsy.js"
+      ],
+      "symbols": [
+        "s_zrbrqoaqXSY"
+      ]
+    },
+    "q-dc2d4886.js": {
+      "size": 241,
+      "imports": [
+        "q-5bbf9964.js"
+      ],
+      "dynamicImports": [
+        "q-cb7336ca.js"
+      ],
+      "origins": [
+        "src/routes/flower/index.tsx"
+      ]
+    },
+    "q-ea375946.js": {
+      "size": 435782,
+      "imports": [
+        "q-4b916990.js",
+        "q-5bbf9964.js",
+        "q-64d3db07.js",
+        "q-6605d321.js",
+        "q-74c9cd41.js",
+        "q-84340f44.js",
+        "q-f0b8da33.js"
+      ],
+      "origins": [
+        "\u0000/home/chris/Programs/Javascript/qwik-test-app/node_modules/prop-types/index.js?commonjs-module",
+        "\u0000/home/chris/Programs/Javascript/qwik-test-app/node_modules/react-is/cjs/react-is.production.min.js?commonjs-exports",
+        "\u0000/home/chris/Programs/Javascript/qwik-test-app/node_modules/react-is/index.js?commonjs-module",
+        "node_modules/@babel/runtime/helpers/esm/toPrimitive.js",
+        "node_modules/@babel/runtime/helpers/esm/toPropertyKey.js",
+        "node_modules/@babel/runtime/helpers/esm/typeof.js",
+        "node_modules/@mui/base/AutocompleteUnstyled/useAutocomplete.js",
+        "node_modules/@mui/base/BadgeUnstyled/BadgeUnstyled.js",
+        "node_modules/@mui/base/BadgeUnstyled/badgeUnstyledClasses.js",
+        "node_modules/@mui/base/BadgeUnstyled/useBadge.js",
+        "node_modules/@mui/base/ClickAwayListener/ClickAwayListener.js",
+        "node_modules/@mui/base/FocusTrap/FocusTrap.js",
+        "node_modules/@mui/base/ModalUnstyled/ModalManager.js",
+        "node_modules/@mui/base/ModalUnstyled/ModalUnstyled.js",
+        "node_modules/@mui/base/ModalUnstyled/modalUnstyledClasses.js",
+        "node_modules/@mui/base/PopperUnstyled/PopperUnstyled.js",
+        "node_modules/@mui/base/PopperUnstyled/popperUnstyledClasses.js",
+        "node_modules/@mui/base/Portal/Portal.js",
+        "node_modules/@mui/base/TextareaAutosize/TextareaAutosize.js",
+        "node_modules/@mui/material/esm/Autocomplete/Autocomplete.js",
+        "node_modules/@mui/material/esm/Autocomplete/autocompleteClasses.js",
+        "node_modules/@mui/material/esm/Backdrop/Backdrop.js",
+        "node_modules/@mui/material/esm/Backdrop/backdropClasses.js",
+        "node_modules/@mui/material/esm/Badge/Badge.js",
+        "node_modules/@mui/material/esm/Badge/badgeClasses.js",
+        "node_modules/@mui/material/esm/Checkbox/Checkbox.js",
+        "node_modules/@mui/material/esm/Checkbox/checkboxClasses.js",
+        "node_modules/@mui/material/esm/Chip/Chip.js",
+        "node_modules/@mui/material/esm/Chip/chipClasses.js",
+        "node_modules/@mui/material/esm/CircularProgress/CircularProgress.js",
+        "node_modules/@mui/material/esm/CircularProgress/circularProgressClasses.js",
+        "node_modules/@mui/material/esm/Divider/dividerClasses.js",
+        "node_modules/@mui/material/esm/Fade/Fade.js",
+        "node_modules/@mui/material/esm/FilledInput/FilledInput.js",
+        "node_modules/@mui/material/esm/FilledInput/filledInputClasses.js",
+        "node_modules/@mui/material/esm/FormControl/FormControl.js",
+        "node_modules/@mui/material/esm/FormControl/FormControlContext.js",
+        "node_modules/@mui/material/esm/FormControl/formControlClasses.js",
+        "node_modules/@mui/material/esm/FormControl/formControlState.js",
+        "node_modules/@mui/material/esm/FormControl/useFormControl.js",
+        "node_modules/@mui/material/esm/FormControlLabel/FormControlLabel.js",
+        "node_modules/@mui/material/esm/FormControlLabel/formControlLabelClasses.js",
+        "node_modules/@mui/material/esm/FormHelperText/FormHelperText.js",
+        "node_modules/@mui/material/esm/FormHelperText/formHelperTextClasses.js",
+        "node_modules/@mui/material/esm/FormLabel/FormLabel.js",
+        "node_modules/@mui/material/esm/FormLabel/formLabelClasses.js",
+        "node_modules/@mui/material/esm/GlobalStyles/GlobalStyles.js",
+        "node_modules/@mui/material/esm/Grow/Grow.js",
+        "node_modules/@mui/material/esm/IconButton/IconButton.js",
+        "node_modules/@mui/material/esm/IconButton/iconButtonClasses.js",
+        "node_modules/@mui/material/esm/Input/Input.js",
+        "node_modules/@mui/material/esm/Input/inputClasses.js",
+        "node_modules/@mui/material/esm/InputBase/InputBase.js",
+        "node_modules/@mui/material/esm/InputBase/inputBaseClasses.js",
+        "node_modules/@mui/material/esm/InputBase/utils.js",
+        "node_modules/@mui/material/esm/InputLabel/InputLabel.js",
+        "node_modules/@mui/material/esm/InputLabel/inputLabelClasses.js",
+        "node_modules/@mui/material/esm/List/List.js",
+        "node_modules/@mui/material/esm/List/ListContext.js",
+        "node_modules/@mui/material/esm/List/listClasses.js",
+        "node_modules/@mui/material/esm/ListItemIcon/listItemIconClasses.js",
+        "node_modules/@mui/material/esm/ListItemText/listItemTextClasses.js",
+        "node_modules/@mui/material/esm/ListSubheader/ListSubheader.js",
+        "node_modules/@mui/material/esm/ListSubheader/listSubheaderClasses.js",
+        "node_modules/@mui/material/esm/Menu/Menu.js",
+        "node_modules/@mui/material/esm/Menu/menuClasses.js",
+        "node_modules/@mui/material/esm/MenuItem/MenuItem.js",
+        "node_modules/@mui/material/esm/MenuItem/menuItemClasses.js",
+        "node_modules/@mui/material/esm/MenuList/MenuList.js",
+        "node_modules/@mui/material/esm/Modal/Modal.js",
+        "node_modules/@mui/material/esm/NativeSelect/NativeSelectInput.js",
+        "node_modules/@mui/material/esm/NativeSelect/nativeSelectClasses.js",
+        "node_modules/@mui/material/esm/OutlinedInput/NotchedOutline.js",
+        "node_modules/@mui/material/esm/OutlinedInput/OutlinedInput.js",
+        "node_modules/@mui/material/esm/OutlinedInput/outlinedInputClasses.js",
+        "node_modules/@mui/material/esm/Paper/Paper.js",
+        "node_modules/@mui/material/esm/Paper/paperClasses.js",
+        "node_modules/@mui/material/esm/Popover/Popover.js",
+        "node_modules/@mui/material/esm/Popover/popoverClasses.js",
+        "node_modules/@mui/material/esm/Popper/Popper.js",
+        "node_modules/@mui/material/esm/Select/Select.js",
+        "node_modules/@mui/material/esm/Select/SelectInput.js",
+        "node_modules/@mui/material/esm/Select/selectClasses.js",
+        "node_modules/@mui/material/esm/Skeleton/Skeleton.js",
+        "node_modules/@mui/material/esm/Skeleton/skeletonClasses.js",
+        "node_modules/@mui/material/esm/SvgIcon/SvgIcon.js",
+        "node_modules/@mui/material/esm/SvgIcon/svgIconClasses.js",
+        "node_modules/@mui/material/esm/Switch/Switch.js",
+        "node_modules/@mui/material/esm/Switch/switchClasses.js",
+        "node_modules/@mui/material/esm/Table/TableContext.js",
+        "node_modules/@mui/material/esm/Table/Tablelvl2Context.js",
+        "node_modules/@mui/material/esm/TableCell/TableCell.js",
+        "node_modules/@mui/material/esm/TableCell/tableCellClasses.js",
+        "node_modules/@mui/material/esm/TablePagination/TablePagination.js",
+        "node_modules/@mui/material/esm/TablePagination/TablePaginationActions.js",
+        "node_modules/@mui/material/esm/TablePagination/tablePaginationClasses.js",
+        "node_modules/@mui/material/esm/TextField/TextField.js",
+        "node_modules/@mui/material/esm/TextField/textFieldClasses.js",
+        "node_modules/@mui/material/esm/Toolbar/Toolbar.js",
+        "node_modules/@mui/material/esm/Toolbar/toolbarClasses.js",
+        "node_modules/@mui/material/esm/Tooltip/Tooltip.js",
+        "node_modules/@mui/material/esm/Tooltip/tooltipClasses.js",
+        "node_modules/@mui/material/esm/Typography/Typography.js",
+        "node_modules/@mui/material/esm/Typography/typographyClasses.js",
+        "node_modules/@mui/material/esm/internal/SwitchBase.js",
+        "node_modules/@mui/material/esm/internal/svg-icons/ArrowDropDown.js",
+        "node_modules/@mui/material/esm/internal/svg-icons/Cancel.js",
+        "node_modules/@mui/material/esm/internal/svg-icons/CheckBox.js",
+        "node_modules/@mui/material/esm/internal/svg-icons/CheckBoxOutlineBlank.js",
+        "node_modules/@mui/material/esm/internal/svg-icons/Close.js",
+        "node_modules/@mui/material/esm/internal/svg-icons/FirstPage.js",
+        "node_modules/@mui/material/esm/internal/svg-icons/IndeterminateCheckBox.js",
+        "node_modules/@mui/material/esm/internal/svg-icons/KeyboardArrowLeft.js",
+        "node_modules/@mui/material/esm/internal/svg-icons/KeyboardArrowRight.js",
+        "node_modules/@mui/material/esm/internal/svg-icons/LastPage.js",
+        "node_modules/@mui/material/esm/internal/switchBaseClasses.js",
+        "node_modules/@mui/material/esm/styles/cssUtils.js",
+        "node_modules/@mui/material/esm/transitions/utils.js",
+        "node_modules/@mui/material/esm/utils/createSvgIcon.js",
+        "node_modules/@mui/styled-engine/GlobalStyles/GlobalStyles.js",
+        "node_modules/@mui/system/esm/styleFunctionSx/extendSxProp.js",
+        "node_modules/@mui/utils/esm/chainPropTypes.js",
+        "node_modules/@mui/utils/esm/createChainedFunction.js",
+        "node_modules/@mui/utils/esm/debounce.js",
+        "node_modules/@mui/utils/esm/getScrollbarSize.js",
+        "node_modules/@mui/utils/esm/isMuiElement.js",
+        "node_modules/@mui/utils/esm/ownerWindow.js",
+        "node_modules/@mui/utils/esm/useId.js",
+        "node_modules/@mui/utils/esm/usePreviousProps.js",
+        "node_modules/@mui/x-data-grid/DataGrid/DataGrid.js",
+        "node_modules/@mui/x-data-grid/DataGrid/useDataGridComponent.js",
+        "node_modules/@mui/x-data-grid/DataGrid/useDataGridProps.js",
+        "node_modules/@mui/x-data-grid/colDef/gridActionsColDef.js",
+        "node_modules/@mui/x-data-grid/colDef/gridBooleanColDef.js",
+        "node_modules/@mui/x-data-grid/colDef/gridBooleanOperators.js",
+        "node_modules/@mui/x-data-grid/colDef/gridCheckboxSelectionColDef.js",
+        "node_modules/@mui/x-data-grid/colDef/gridDateColDef.js",
+        "node_modules/@mui/x-data-grid/colDef/gridDateOperators.js",
+        "node_modules/@mui/x-data-grid/colDef/gridDefaultColumnTypes.js",
+        "node_modules/@mui/x-data-grid/colDef/gridNumericColDef.js",
+        "node_modules/@mui/x-data-grid/colDef/gridNumericOperators.js",
+        "node_modules/@mui/x-data-grid/colDef/gridSingleSelectColDef.js",
+        "node_modules/@mui/x-data-grid/colDef/gridSingleSelectOperators.js",
+        "node_modules/@mui/x-data-grid/colDef/gridStringColDef.js",
+        "node_modules/@mui/x-data-grid/colDef/gridStringOperators.js",
+        "node_modules/@mui/x-data-grid/components/DataGridColumnHeaders.js",
+        "node_modules/@mui/x-data-grid/components/DataGridVirtualScroller.js",
+        "node_modules/@mui/x-data-grid/components/ErrorBoundary.js",
+        "node_modules/@mui/x-data-grid/components/ErrorOverlay.js",
+        "node_modules/@mui/x-data-grid/components/GridApiContext.js",
+        "node_modules/@mui/x-data-grid/components/GridAutoSizer.js",
+        "node_modules/@mui/x-data-grid/components/GridFooter.js",
+        "node_modules/@mui/x-data-grid/components/GridHeader.js",
+        "node_modules/@mui/x-data-grid/components/GridLoadingOverlay.js",
+        "node_modules/@mui/x-data-grid/components/GridNoResultsOverlay.js",
+        "node_modules/@mui/x-data-grid/components/GridNoRowsOverlay.js",
+        "node_modules/@mui/x-data-grid/components/GridPagination.js",
+        "node_modules/@mui/x-data-grid/components/GridRow.js",
+        "node_modules/@mui/x-data-grid/components/GridRowCount.js",
+        "node_modules/@mui/x-data-grid/components/GridScrollArea.js",
+        "node_modules/@mui/x-data-grid/components/GridSelectedRowCount.js",
+        "node_modules/@mui/x-data-grid/components/base/GridBody.js",
+        "node_modules/@mui/x-data-grid/components/base/GridErrorHandler.js",
+        "node_modules/@mui/x-data-grid/components/base/GridFooterPlaceholder.js",
+        "node_modules/@mui/x-data-grid/components/base/GridHeaderPlaceholder.js",
+        "node_modules/@mui/x-data-grid/components/base/GridOverlays.js",
+        "node_modules/@mui/x-data-grid/components/cell/GridActionsCell.js",
+        "node_modules/@mui/x-data-grid/components/cell/GridBooleanCell.js",
+        "node_modules/@mui/x-data-grid/components/cell/GridCell.js",
+        "node_modules/@mui/x-data-grid/components/cell/GridEditBooleanCell.js",
+        "node_modules/@mui/x-data-grid/components/cell/GridEditDateCell.js",
+        "node_modules/@mui/x-data-grid/components/cell/GridEditInputCell.js",
+        "node_modules/@mui/x-data-grid/components/cell/GridEditSingleSelectCell.js",
+        "node_modules/@mui/x-data-grid/components/cell/GridSkeletonCell.js",
+        "node_modules/@mui/x-data-grid/components/columnHeaders/ColumnHeaderMenuIcon.js",
+        "node_modules/@mui/x-data-grid/components/columnHeaders/GridColumnGroupHeader.js",
+        "node_modules/@mui/x-data-grid/components/columnHeaders/GridColumnHeaderFilterIconButton.js",
+        "node_modules/@mui/x-data-grid/components/columnHeaders/GridColumnHeaderItem.js",
+        "node_modules/@mui/x-data-grid/components/columnHeaders/GridColumnHeaderSeparator.js",
+        "node_modules/@mui/x-data-grid/components/columnHeaders/GridColumnHeaderSortIcon.js",
+        "node_modules/@mui/x-data-grid/components/columnHeaders/GridColumnHeaderTitle.js",
+        "node_modules/@mui/x-data-grid/components/columnHeaders/GridColumnHeaders.js",
+        "node_modules/@mui/x-data-grid/components/columnHeaders/GridColumnHeadersInner.js",
+        "node_modules/@mui/x-data-grid/components/columnHeaders/GridColumnUnsortedIcon.js",
+        "node_modules/@mui/x-data-grid/components/columnHeaders/GridGenericColumnHeaderItem.js",
+        "node_modules/@mui/x-data-grid/components/columnHeaders/GridIconButtonContainer.js",
+        "node_modules/@mui/x-data-grid/components/columnSelection/GridCellCheckboxRenderer.js",
+        "node_modules/@mui/x-data-grid/components/columnSelection/GridHeaderCheckbox.js",
+        "node_modules/@mui/x-data-grid/components/containers/GridFooterContainer.js",
+        "node_modules/@mui/x-data-grid/components/containers/GridMainContainer.js",
+        "node_modules/@mui/x-data-grid/components/containers/GridOverlay.js",
+        "node_modules/@mui/x-data-grid/components/containers/GridRoot.js",
+        "node_modules/@mui/x-data-grid/components/containers/GridRootStyles.js",
+        "node_modules/@mui/x-data-grid/components/icons/index.js",
+        "node_modules/@mui/x-data-grid/components/menu/GridMenu.js",
+        "node_modules/@mui/x-data-grid/components/menu/columnMenu/GridColumnHeaderMenu.js",
+        "node_modules/@mui/x-data-grid/components/menu/columnMenu/GridColumnMenu.js",
+        "node_modules/@mui/x-data-grid/components/menu/columnMenu/GridColumnMenuContainer.js",
+        "node_modules/@mui/x-data-grid/components/menu/columnMenu/GridColumnsMenuItem.js",
+        "node_modules/@mui/x-data-grid/components/menu/columnMenu/GridFilterMenuItem.js",
+        "node_modules/@mui/x-data-grid/components/menu/columnMenu/HideGridColMenuItem.js",
+        "node_modules/@mui/x-data-grid/components/menu/columnMenu/SortGridMenuItems.js",
+        "node_modules/@mui/x-data-grid/components/panel/GridColumnsPanel.js",
+        "node_modules/@mui/x-data-grid/components/panel/GridPanel.js",
+        "node_modules/@mui/x-data-grid/components/panel/GridPanelContent.js",
+        "node_modules/@mui/x-data-grid/components/panel/GridPanelFooter.js",
+        "node_modules/@mui/x-data-grid/components/panel/GridPanelHeader.js",
+        "node_modules/@mui/x-data-grid/components/panel/GridPanelWrapper.js",
+        "node_modules/@mui/x-data-grid/components/panel/GridPreferencesPanel.js",
+        "node_modules/@mui/x-data-grid/components/panel/filterPanel/GridFilterForm.js",
+        "node_modules/@mui/x-data-grid/components/panel/filterPanel/GridFilterInputBoolean.js",
+        "node_modules/@mui/x-data-grid/components/panel/filterPanel/GridFilterInputDate.js",
+        "node_modules/@mui/x-data-grid/components/panel/filterPanel/GridFilterInputMultipleSingleSelect.js",
+        "node_modules/@mui/x-data-grid/components/panel/filterPanel/GridFilterInputMultipleValue.js",
+        "node_modules/@mui/x-data-grid/components/panel/filterPanel/GridFilterInputSingleSelect.js",
+        "node_modules/@mui/x-data-grid/components/panel/filterPanel/GridFilterInputValue.js",
+        "node_modules/@mui/x-data-grid/components/panel/filterPanel/GridFilterPanel.js",
+        "node_modules/@mui/x-data-grid/components/panel/filterPanel/filterPanelUtils.js",
+        "node_modules/@mui/x-data-grid/components/toolbar/GridToolbarExport.js",
+        "node_modules/@mui/x-data-grid/components/virtualization/GridVirtualScroller.js",
+        "node_modules/@mui/x-data-grid/components/virtualization/GridVirtualScrollerContent.js",
+        "node_modules/@mui/x-data-grid/components/virtualization/GridVirtualScrollerRenderZone.js",
+        "node_modules/@mui/x-data-grid/constants/defaultGridSlotsComponents.js",
+        "node_modules/@mui/x-data-grid/constants/envConstants.js",
+        "node_modules/@mui/x-data-grid/constants/gridClasses.js",
+        "node_modules/@mui/x-data-grid/constants/gridDetailPanelToggleField.js",
+        "node_modules/@mui/x-data-grid/constants/localeTextConstants.js",
+        "node_modules/@mui/x-data-grid/context/GridContextProvider.js",
+        "node_modules/@mui/x-data-grid/context/GridRootPropsContext.js",
+        "node_modules/@mui/x-data-grid/hooks/core/pipeProcessing/useGridPipeProcessing.js",
+        "node_modules/@mui/x-data-grid/hooks/core/pipeProcessing/useGridRegisterPipeApplier.js",
+        "node_modules/@mui/x-data-grid/hooks/core/pipeProcessing/useGridRegisterPipeProcessor.js",
+        "node_modules/@mui/x-data-grid/hooks/core/strategyProcessing/useGridRegisterStrategyProcessor.js",
+        "node_modules/@mui/x-data-grid/hooks/core/strategyProcessing/useGridStrategyProcessing.js",
+        "node_modules/@mui/x-data-grid/hooks/core/useGridApiInitialization.js",
+        "node_modules/@mui/x-data-grid/hooks/core/useGridErrorHandler.js",
+        "node_modules/@mui/x-data-grid/hooks/core/useGridInitialization.js",
+        "node_modules/@mui/x-data-grid/hooks/core/useGridLocaleText.js",
+        "node_modules/@mui/x-data-grid/hooks/core/useGridLoggerFactory.js",
+        "node_modules/@mui/x-data-grid/hooks/core/useGridStateInitialization.js",
+        "node_modules/@mui/x-data-grid/hooks/features/clipboard/useGridClipboard.js",
+        "node_modules/@mui/x-data-grid/hooks/features/columnGrouping/gridColumnGroupsSelector.js",
+        "node_modules/@mui/x-data-grid/hooks/features/columnGrouping/useGridColumnGrouping.js",
+        "node_modules/@mui/x-data-grid/hooks/features/columnGrouping/useGridColumnGroupingPreProcessors.js",
+        "node_modules/@mui/x-data-grid/hooks/features/columnHeaders/useGridColumnHeaders.js",
+        "node_modules/@mui/x-data-grid/hooks/features/columnMenu/columnMenuSelector.js",
+        "node_modules/@mui/x-data-grid/hooks/features/columnMenu/useGridColumnMenu.js",
+        "node_modules/@mui/x-data-grid/hooks/features/columns/gridColumnsSelector.js",
+        "node_modules/@mui/x-data-grid/hooks/features/columns/gridColumnsUtils.js",
+        "node_modules/@mui/x-data-grid/hooks/features/columns/useGridColumnSpanning.js",
+        "node_modules/@mui/x-data-grid/hooks/features/columns/useGridColumns.js",
+        "node_modules/@mui/x-data-grid/hooks/features/density/densitySelector.js",
+        "node_modules/@mui/x-data-grid/hooks/features/density/useGridDensity.js",
+        "node_modules/@mui/x-data-grid/hooks/features/dimensions/useGridDimensions.js",
+        "node_modules/@mui/x-data-grid/hooks/features/editRows/gridEditRowsSelector.js",
+        "node_modules/@mui/x-data-grid/hooks/features/editRows/useGridCellEditing.new.js",
+        "node_modules/@mui/x-data-grid/hooks/features/editRows/useGridCellEditing.old.js",
+        "node_modules/@mui/x-data-grid/hooks/features/editRows/useGridEditing.new.js",
+        "node_modules/@mui/x-data-grid/hooks/features/editRows/useGridEditing.old.js",
+        "node_modules/@mui/x-data-grid/hooks/features/editRows/useGridRowEditing.new.js",
+        "node_modules/@mui/x-data-grid/hooks/features/editRows/useGridRowEditing.old.js",
+        "node_modules/@mui/x-data-grid/hooks/features/events/useGridEvents.js",
+        "node_modules/@mui/x-data-grid/hooks/features/export/serializers/csvSerializer.js",
+        "node_modules/@mui/x-data-grid/hooks/features/export/useGridCsvExport.js",
+        "node_modules/@mui/x-data-grid/hooks/features/export/useGridPrintExport.js",
+        "node_modules/@mui/x-data-grid/hooks/features/export/utils.js",
+        "node_modules/@mui/x-data-grid/hooks/features/filter/gridFilterSelector.js",
+        "node_modules/@mui/x-data-grid/hooks/features/filter/gridFilterState.js",
+        "node_modules/@mui/x-data-grid/hooks/features/filter/gridFilterUtils.js",
+        "node_modules/@mui/x-data-grid/hooks/features/filter/useGridFilter.js",
+        "node_modules/@mui/x-data-grid/hooks/features/focus/gridFocusStateSelector.js",
+        "node_modules/@mui/x-data-grid/hooks/features/focus/useGridFocus.js",
+        "node_modules/@mui/x-data-grid/hooks/features/keyboardNavigation/useGridKeyboardNavigation.js",
+        "node_modules/@mui/x-data-grid/hooks/features/pagination/gridPaginationSelector.js",
+        "node_modules/@mui/x-data-grid/hooks/features/pagination/useGridPage.js",
+        "node_modules/@mui/x-data-grid/hooks/features/pagination/useGridPageSize.js",
+        "node_modules/@mui/x-data-grid/hooks/features/pagination/useGridPagination.js",
+        "node_modules/@mui/x-data-grid/hooks/features/preferencesPanel/gridPreferencePanelSelector.js",
+        "node_modules/@mui/x-data-grid/hooks/features/preferencesPanel/gridPreferencePanelsValue.js",
+        "node_modules/@mui/x-data-grid/hooks/features/preferencesPanel/useGridPreferencesPanel.js",
+        "node_modules/@mui/x-data-grid/hooks/features/rows/gridRowsMetaSelector.js",
+        "node_modules/@mui/x-data-grid/hooks/features/rows/gridRowsSelector.js",
+        "node_modules/@mui/x-data-grid/hooks/features/rows/gridRowsUtils.js",
+        "node_modules/@mui/x-data-grid/hooks/features/rows/useGridParamsApi.js",
+        "node_modules/@mui/x-data-grid/hooks/features/rows/useGridRows.js",
+        "node_modules/@mui/x-data-grid/hooks/features/rows/useGridRowsMeta.js",
+        "node_modules/@mui/x-data-grid/hooks/features/rows/useGridRowsPreProcessors.js",
+        "node_modules/@mui/x-data-grid/hooks/features/scroll/useGridScroll.js",
+        "node_modules/@mui/x-data-grid/hooks/features/selection/gridSelectionSelector.js",
+        "node_modules/@mui/x-data-grid/hooks/features/selection/useGridSelection.js",
+        "node_modules/@mui/x-data-grid/hooks/features/selection/useGridSelectionPreProcessors.js",
+        "node_modules/@mui/x-data-grid/hooks/features/sorting/gridSortingSelector.js",
+        "node_modules/@mui/x-data-grid/hooks/features/sorting/gridSortingUtils.js",
+        "node_modules/@mui/x-data-grid/hooks/features/sorting/useGridSorting.js",
+        "node_modules/@mui/x-data-grid/hooks/features/statePersistence/useGridStatePersistence.js",
+        "node_modules/@mui/x-data-grid/hooks/features/virtualization/useGridVirtualScroller.js",
+        "node_modules/@mui/x-data-grid/hooks/utils/useFirstRender.js",
+        "node_modules/@mui/x-data-grid/hooks/utils/useGridApiContext.js",
+        "node_modules/@mui/x-data-grid/hooks/utils/useGridApiEventHandler.js",
+        "node_modules/@mui/x-data-grid/hooks/utils/useGridApiMethod.js",
+        "node_modules/@mui/x-data-grid/hooks/utils/useGridInitializeState.js",
+        "node_modules/@mui/x-data-grid/hooks/utils/useGridLogger.js",
+        "node_modules/@mui/x-data-grid/hooks/utils/useGridNativeEventListener.js",
+        "node_modules/@mui/x-data-grid/hooks/utils/useGridRootProps.js",
+        "node_modules/@mui/x-data-grid/hooks/utils/useGridSelector.js",
+        "node_modules/@mui/x-data-grid/hooks/utils/useGridVisibleRows.js",
+        "node_modules/@mui/x-data-grid/lib/createDetectElementResize/index.js",
+        "node_modules/@mui/x-data-grid/models/gridColumnGrouping.js",
+        "node_modules/@mui/x-data-grid/models/gridDensity.js",
+        "node_modules/@mui/x-data-grid/models/gridEditRowModel.js",
+        "node_modules/@mui/x-data-grid/models/gridFeatureMode.js",
+        "node_modules/@mui/x-data-grid/models/gridFilterItem.js",
+        "node_modules/@mui/x-data-grid/models/params/gridEditCellParams.js",
+        "node_modules/@mui/x-data-grid/models/params/gridRowParams.js",
+        "node_modules/@mui/x-data-grid/utils/EventManager.js",
+        "node_modules/@mui/x-data-grid/utils/cleanupTracking/FinalizationRegistryBasedCleanupTracking.js",
+        "node_modules/@mui/x-data-grid/utils/cleanupTracking/TimerBasedCleanupTracking.js",
+        "node_modules/@mui/x-data-grid/utils/createSelector.js",
+        "node_modules/@mui/x-data-grid/utils/domUtils.js",
+        "node_modules/@mui/x-data-grid/utils/exportAs.js",
+        "node_modules/@mui/x-data-grid/utils/keyboardUtils.js",
+        "node_modules/@mui/x-data-grid/utils/utils.js",
+        "node_modules/@mui/x-data-grid/utils/warning.js",
+        "node_modules/@popperjs/core/lib/createPopper.js",
+        "node_modules/@popperjs/core/lib/dom-utils/contains.js",
+        "node_modules/@popperjs/core/lib/dom-utils/getBoundingClientRect.js",
+        "node_modules/@popperjs/core/lib/dom-utils/getClippingRect.js",
+        "node_modules/@popperjs/core/lib/dom-utils/getCompositeRect.js",
+        "node_modules/@popperjs/core/lib/dom-utils/getComputedStyle.js",
+        "node_modules/@popperjs/core/lib/dom-utils/getDocumentElement.js",
+        "node_modules/@popperjs/core/lib/dom-utils/getDocumentRect.js",
+        "node_modules/@popperjs/core/lib/dom-utils/getHTMLElementScroll.js",
+        "node_modules/@popperjs/core/lib/dom-utils/getLayoutRect.js",
+        "node_modules/@popperjs/core/lib/dom-utils/getNodeName.js",
+        "node_modules/@popperjs/core/lib/dom-utils/getNodeScroll.js",
+        "node_modules/@popperjs/core/lib/dom-utils/getOffsetParent.js",
+        "node_modules/@popperjs/core/lib/dom-utils/getParentNode.js",
+        "node_modules/@popperjs/core/lib/dom-utils/getScrollParent.js",
+        "node_modules/@popperjs/core/lib/dom-utils/getViewportRect.js",
+        "node_modules/@popperjs/core/lib/dom-utils/getWindow.js",
+        "node_modules/@popperjs/core/lib/dom-utils/getWindowScroll.js",
+        "node_modules/@popperjs/core/lib/dom-utils/getWindowScrollBarX.js",
+        "node_modules/@popperjs/core/lib/dom-utils/instanceOf.js",
+        "node_modules/@popperjs/core/lib/dom-utils/isLayoutViewport.js",
+        "node_modules/@popperjs/core/lib/dom-utils/isScrollParent.js",
+        "node_modules/@popperjs/core/lib/dom-utils/isTableElement.js",
+        "node_modules/@popperjs/core/lib/dom-utils/listScrollParents.js",
+        "node_modules/@popperjs/core/lib/enums.js",
+        "node_modules/@popperjs/core/lib/modifiers/applyStyles.js",
+        "node_modules/@popperjs/core/lib/modifiers/arrow.js",
+        "node_modules/@popperjs/core/lib/modifiers/computeStyles.js",
+        "node_modules/@popperjs/core/lib/modifiers/eventListeners.js",
+        "node_modules/@popperjs/core/lib/modifiers/flip.js",
+        "node_modules/@popperjs/core/lib/modifiers/hide.js",
+        "node_modules/@popperjs/core/lib/modifiers/offset.js",
+        "node_modules/@popperjs/core/lib/modifiers/popperOffsets.js",
+        "node_modules/@popperjs/core/lib/modifiers/preventOverflow.js",
+        "node_modules/@popperjs/core/lib/popper.js",
+        "node_modules/@popperjs/core/lib/utils/computeAutoPlacement.js",
+        "node_modules/@popperjs/core/lib/utils/computeOffsets.js",
+        "node_modules/@popperjs/core/lib/utils/debounce.js",
+        "node_modules/@popperjs/core/lib/utils/detectOverflow.js",
+        "node_modules/@popperjs/core/lib/utils/expandToHashMap.js",
+        "node_modules/@popperjs/core/lib/utils/getAltAxis.js",
+        "node_modules/@popperjs/core/lib/utils/getBasePlacement.js",
+        "node_modules/@popperjs/core/lib/utils/getFreshSideObject.js",
+        "node_modules/@popperjs/core/lib/utils/getMainAxisFromPlacement.js",
+        "node_modules/@popperjs/core/lib/utils/getOppositePlacement.js",
+        "node_modules/@popperjs/core/lib/utils/getOppositeVariationPlacement.js",
+        "node_modules/@popperjs/core/lib/utils/getVariation.js",
+        "node_modules/@popperjs/core/lib/utils/math.js",
+        "node_modules/@popperjs/core/lib/utils/mergeByName.js",
+        "node_modules/@popperjs/core/lib/utils/mergePaddingObject.js",
+        "node_modules/@popperjs/core/lib/utils/orderModifiers.js",
+        "node_modules/@popperjs/core/lib/utils/rectToClientRect.js",
+        "node_modules/@popperjs/core/lib/utils/userAgent.js",
+        "node_modules/@popperjs/core/lib/utils/within.js",
+        "node_modules/prop-types/factoryWithThrowingShims.js",
+        "node_modules/prop-types/index.js",
+        "node_modules/prop-types/lib/ReactPropTypesSecret.js",
+        "node_modules/react-is/cjs/react-is.production.min.js",
+        "node_modules/react-is/index.js",
+        "node_modules/react-transition-group/esm/Transition.js",
+        "node_modules/react-transition-group/esm/config.js",
+        "node_modules/react-transition-group/esm/utils/reflow.js",
+        "node_modules/reselect/es/defaultMemoize.js",
+        "node_modules/reselect/es/index.js",
+        "src/entry_TableApp.js",
+        "src/s_lqzpp0b5rtk.js"
+      ],
+      "symbols": [
+        "s_LQzPP0B5Rtk"
+      ]
+    },
+    "q-ed292abc.js": {
+      "size": 1546,
+      "imports": [
+        "q-5bbf9964.js",
+        "q-cb129d7f.js"
+      ],
+      "dynamicImports": [
+        "q-d3eac568.js"
+      ],
+      "origins": [
+        "@builder.io/qwik/build",
+        "src/entry_QwikCity.js",
+        "src/s_aaalzkh0klq.js",
+        "src/s_z1nvhyeppoi.js"
+      ],
+      "symbols": [
+        "s_AaAlzKH0KlQ",
+        "s_z1nvHyEppoI"
+      ]
+    },
+    "q-f0b8da33.js": {
+      "size": 11076,
+      "imports": [
+        "q-5bbf9964.js"
+      ],
+      "dynamicImports": [
+        "q-4bf12bfa.js",
+        "q-914a6c6a.js",
+        "q-a2d630bc.js",
+        "q-b7f61013.js",
+        "q-b8750d52.js",
+        "q-ea375946.js"
+      ],
+      "origins": [
+        "\u0000/home/chris/Programs/Javascript/qwik-test-app/node_modules/react/cjs/react.production.min.js?commonjs-exports",
+        "\u0000/home/chris/Programs/Javascript/qwik-test-app/node_modules/react/index.js?commonjs-module",
+        "\u0000commonjsHelpers.js",
+        "node_modules/@builder.io/qwik-react/lib/index.qwik.mjs",
+        "node_modules/react/cjs/react.production.min.js",
+        "node_modules/react/index.js",
+        "src/entry_react.js",
+        "src/integrations/react/mui.tsx",
+        "src/s_0tpdeaim2eg.js",
+        "src/s_ajmyurh1aws.js",
+        "src/s_cwhr1socfpo.js",
+        "src/s_dvmpoyljby8.js",
+        "src/s_i4fry0pt5lk.js"
+      ],
+      "symbols": [
+        "s_0TpDEaIm2Eg",
+        "s_ajMyuRH1aws",
+        "s_CwHr1soCFpo",
+        "s_DVMPoyljbY8",
+        "s_i4frY0Pt5lk"
+      ]
+    }
+  },
+  "injections": [],
+  "version": "1",
+  "options": {
+    "target": "client",
+    "buildMode": "production",
+    "forceFullBuild": true,
+    "entryStrategy": {
+      "type": "smart"
+    }
+  },
+  "platform": {
+    "qwik": "0.13.3",
+    "vite": "",
+    "rollup": "2.79.1",
+    "env": "node",
+    "os": "linux",
+    "node": "18.7.0"
+  }
+}

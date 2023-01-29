@@ -1,0 +1,1 @@
+import{j as t}from"./q-64d3db07.js";import{r as s}from"./q-f0b8da33.js";import"./q-5bbf9964.js";function e(){const[o,r]=s.exports.useState(0);return t.exports.jsxs("div",{children:[t.exports.jsxs("h1",{children:["Hello, World ",o]}),t.exports.jsx("button",{onClick:()=>r(o+1),children:"add"})]})}const x=e;export{x as s_GmEZMGhx0kI};
