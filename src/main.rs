@@ -3,11 +3,14 @@ use actix_session::{storage::CookieSessionStore, Session, SessionMiddleware};
 use actix_web::{
     cookie::Key, get, post, web, App, HttpRequest, HttpResponse, HttpServer, Responder,
 };
-use std::time::SystemTime;
+use diesel_migrations::{EmbeddedMigrations, embed_migrations};
+use std::{time::SystemTime, path::PathBuf};
 
 #[get("/")]
 async fn index() -> impl Responder {
-    HttpResponse::Ok().body("Hello world!")
+    let path = "index/index.html";
+
+    NamedFile::open_async(SITE_PATH.parse::<PathBuf>().unwrap().join(path)).await
 }
 
 #[get("/auth")]
@@ -181,6 +184,8 @@ fn get_site_config() -> SiteConfiguration {
     site_configuration
 }
 
+pub const MIGRATIONS: EmbeddedMigrations = embed_migrations!("migrations");
+
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
     let db_url = dotenv::var("DATABASE_URL").expect("DATABASE_URL must be set in .env file!");
@@ -189,6 +194,11 @@ async fn main() -> std::io::Result<()> {
         .test_on_check_out(true)
         .build(manager)
         .expect("Could not build connection pool!");
+
+    use diesel_migrations::MigrationHarness;
+
+    let harness = &mut connection_pool.get().unwrap() as &mut PgConnection;
+    harness.run_pending_migrations(MIGRATIONS).unwrap();
 
     let site_configuration = web::Data::new(get_site_config());
 
