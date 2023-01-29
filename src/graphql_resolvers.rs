@@ -457,15 +457,12 @@ impl Mutation {
             .filter(users::username.eq(&username).or(users::email.eq(&email)))
             .get_result::<User>(&mut connection_pool.get().unwrap());
 
-        match possible_user {
-            Ok(user) => {
-                if user.email == email {
-                    return SignupStatus::EmailNotAvailable;
-                } else if user.username == username {
-                    return SignupStatus::UsernameNotAvailable;
-                }
+        if let Ok(user) = possible_user {
+            if user.email == email {
+                return SignupStatus::EmailNotAvailable;
+            } else if user.username == username {
+                return SignupStatus::UsernameNotAvailable;
             }
-            Err(_) => {}
         }
 
         // SUGGESTION: Implement spawn_blocking or equivalent thereof

@@ -32,7 +32,7 @@ impl FoodMenuItem {
     }
 }
 
-#[derive(Queryable, Debug, PartialEq, Clone)]
+#[derive(Queryable, Debug, PartialEq, Clone, Default)]
 pub struct FoodMenuItemVariant {
     pub food_menu_id: uuid::Uuid,
     pub variant_name: String,
@@ -51,17 +51,6 @@ impl FoodMenuItemVariant {
 
     pub fn eq_id(&self, other: &FoodMenuItemVariant) -> bool {
         self.food_menu_id == other.food_menu_id
-    }
-}
-
-impl Default for FoodMenuItemVariant {
-    fn default() -> Self {
-        Self {
-            food_menu_id: Default::default(),
-            variant_name: Default::default(),
-            price: Default::default(),
-            stock: Default::default(),
-        }
     }
 }
 

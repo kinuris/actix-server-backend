@@ -39,21 +39,19 @@ impl SiteConfiguration {
         let spa_site = self
             .single_page_applications
             .iter()
-            .filter(|app_config| app_config.app_name == path)
-            .next();
+            .find(|app_config| app_config.app_name == path);
 
-        if spa_site.is_some() {
-            return Some(SiteCategory::SinglePageApplication(spa_site.unwrap()));
+        if let Some(spa_site) = spa_site {
+            return Some(SiteCategory::SinglePageApplication(spa_site));
         }
 
         let static_site = self
             .static_sites
             .iter()
-            .filter(|app_config| app_config.app_name == path)
-            .next();
+            .find(|app_config| app_config.app_name == path);
 
-        if static_site.is_some() {
-            return Some(SiteCategory::StaticSite(static_site.unwrap()));
+        if let Some(static_site) = static_site {
+            return Some(SiteCategory::StaticSite(static_site));
         }
 
         None

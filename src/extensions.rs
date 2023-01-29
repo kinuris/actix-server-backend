@@ -59,13 +59,11 @@ impl FilterOneExt for core::slice::Iter<'_, SPARule> {
         'result: {
             for rule @ SPARule { route, .. } in self.as_slice() {
                 if is_root_only {
-                    if *route == "" {
+                    if route.is_empty() {
                         break 'result Some(rule);
                     }
-                } else {
-                    if *route == &path[1..].join("/") {
-                        break 'result Some(rule);
-                    }
+                } else if *route == path[1..].join("/") {
+                    break 'result Some(rule);
                 }
             }
 
@@ -118,6 +116,6 @@ impl<T> Deref for Shared<T> {
     type Target = T;
 
     fn deref(&self) -> &Self::Target {
-        &*self.0.as_deref().clone().unwrap()
+        self.0.as_deref().unwrap()
     }
 }

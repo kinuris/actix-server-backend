@@ -59,7 +59,7 @@ async fn app_service(
             let corresponding_rule = config.rules.iter().filter_one(path.clone());
 
             let app_name = path_as_vec.first().unwrap();
-            let index_path = format!("{}/index.html", app_name);
+            let index_path = format!("{app_name}/index.html");
             let index_file = NamedFile::open(site_path.join(index_path));
 
             if corresponding_rule.is_none() {
