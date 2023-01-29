@@ -3,40 +3,14 @@ use actix_session::{storage::CookieSessionStore, Session, SessionMiddleware};
 use actix_web::{
     cookie::Key, get, post, web, App, HttpRequest, HttpResponse, HttpServer, Responder,
 };
-use diesel_migrations::{EmbeddedMigrations, embed_migrations};
-use std::{time::SystemTime, path::PathBuf};
+use diesel_migrations::{embed_migrations, EmbeddedMigrations};
+use std::path::PathBuf;
 
 #[get("/")]
 async fn index() -> impl Responder {
     let path = "index/index.html";
 
     NamedFile::open_async(SITE_PATH.parse::<PathBuf>().unwrap().join(path)).await
-}
-
-#[get("/auth")]
-async fn auth(session: Session, query_params: web::Query<AuthQueryParams>) -> HttpResponse {
-    let claim = AuthClaims {
-        admin: query_params.admin.unwrap_or(false),
-        id: "Hello".to_owned(),
-        exp: SystemTime::now()
-            .duration_since(std::time::UNIX_EPOCH)
-            .unwrap()
-            .as_secs() as usize
-            + 20,
-    };
-
-    let token = jsonwebtoken::encode(
-        &Header::default(),
-        &claim,
-        &EncodingKey::from_secret(dotenv::var("SECRET").unwrap().as_ref()),
-    );
-
-    session.insert("auth_token", token.unwrap()).unwrap();
-
-    HttpResponse::Ok().body(format!(
-        "Authetication & Admin: {}",
-        query_params.admin.unwrap_or(false)
-    ))
 }
 
 #[post("/api")]
@@ -156,7 +130,6 @@ use actix_server_backend::{
     extensions::{FilterOneExt, Shared, VecPathExt},
     graphql_resolvers::{AppGraphQLSchema, Mutation, Query},
     jwt_claims::AuthClaims,
-    param_types::AuthQueryParams,
     responders::responses::AppResponse,
     ConnectionPool,
 };
@@ -167,7 +140,7 @@ use diesel::{
     r2d2::{ConnectionManager, Pool},
     PgConnection,
 };
-use jsonwebtoken::{DecodingKey, EncodingKey, Header, Validation};
+use jsonwebtoken::{DecodingKey, Validation};
 
 fn get_site_config() -> SiteConfiguration {
     let mut site_configuration = SiteConfiguration::new();
@@ -223,7 +196,6 @@ async fn main() -> std::io::Result<()> {
             .app_data(connection_pool.clone())
             .service(index)
             .service(graphql_api)
-            .service(auth)
             .route("/{path}*", web::get().to(app_service))
     })
     .bind(("127.0.0.1", 8000))?
