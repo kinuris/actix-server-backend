@@ -258,13 +258,13 @@ impl Mutation {
             if auth_token.is_none() {
                 return RegisterFoodVariantWithId::MustBeAdmin;
             }
-    
+
             let result = jsonwebtoken::decode::<AuthClaims>(
                 auth_token.as_ref().unwrap(),
                 &DecodingKey::from_secret(secret.as_bytes()),
                 &Validation::default(),
             );
-    
+
             match result {
                 Ok(token) => {
                     if !token.claims.admin {
@@ -273,7 +273,7 @@ impl Mutation {
                 }
                 Err(_) => {
                     session.remove("auth_token").unwrap();
-    
+
                     return RegisterFoodVariantWithId::MustBeAdmin;
                 }
             };
@@ -324,13 +324,13 @@ impl Mutation {
             if auth_token.is_none() {
                 return RegisterFoodStatus::Status(RegisterFoodState::MustBeAdmin.into());
             }
-    
+
             let result = jsonwebtoken::decode::<AuthClaims>(
                 auth_token.as_ref().unwrap(),
                 &DecodingKey::from_secret(secret.as_bytes()),
                 &Validation::default(),
             );
-    
+
             match result {
                 Ok(token) => {
                     if !token.claims.admin {
@@ -339,7 +339,7 @@ impl Mutation {
                 }
                 Err(_) => {
                     session.remove("auth_token").unwrap();
-    
+
                     return RegisterFoodStatus::Status(RegisterFoodState::MustBeAdmin.into());
                 }
             };
@@ -376,13 +376,13 @@ impl Mutation {
             if auth_token.is_none() {
                 return DeleteFoodStatus::MustBeAdmin;
             }
-    
+
             let result = jsonwebtoken::decode::<AuthClaims>(
                 auth_token.as_ref().unwrap(),
                 &DecodingKey::from_secret(secret.as_bytes()),
                 &Validation::default(),
             );
-    
+
             match result {
                 Ok(token) => {
                     if !token.claims.admin {
@@ -391,7 +391,7 @@ impl Mutation {
                 }
                 Err(_) => {
                     session.remove("auth_token").unwrap();
-    
+
                     return DeleteFoodStatus::MustBeAdmin;
                 }
             };
@@ -429,7 +429,7 @@ impl Mutation {
         username: String,
         email: String,
         password: String,
-        profile_img_link: String,
+        profile_img_link: Option<String>,
     ) -> SignupStatus {
         let session = ctx.data::<Shared<Session>>().unwrap();
         let auth_token = session.get::<String>("auth_token").unwrap();
@@ -481,7 +481,7 @@ impl Mutation {
         let new_user = NewUser {
             email: &email,
             password: &password,
-            profile_img_link: &profile_img_link,
+            profile_img_link: profile_img_link.as_deref(),
             username: &username,
         };
 
