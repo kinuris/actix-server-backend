@@ -105,5 +105,5 @@ pub struct NewUser<'a> {
     pub email: &'a str,
     pub password: &'a str,
     pub username: &'a str,
-    pub profile_img_link: &'a str,
+    pub profile_img_link: Option<&'a str>,
 }
