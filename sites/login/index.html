@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+        }
+    </style>
+    <title>Test Login Form</title>
+</head>
+<body>
+    <form id="login-form">
+        <input type="email" name="email" placeholder="Enter email: ">
+        <input type="password" name="password" placeholder="Enter password: ">
+        <input type="submit" value="Submit">
+    </form>
+
+    <script>
+        let form = document.getElementById("login-form")
+        form.addEventListener("submit", async e => {
+            e.preventDefault()
+            let email = e.target["email"].value
+            let password = e.target["password"].value
+
+            let query = `query MyQuery ($email: String!, $password: String!) {
+                            login (email: $email, password: $password)
+                        }`
+            let operationName = "MyQuery"
+            let variables = { email, password }
+            
+            let result = await fetch("http://localhost:8000/api", {
+                method: "POST",
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ query, operationName, variables })
+            })
+
+            alert(await result.text())
+
+        })
+    </script>
+</body>
+</html>

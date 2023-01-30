@@ -32,7 +32,7 @@ async fn graphql_api(
     }
 }
 
-const SITE_PATH: &'static str = "sites/";
+const SITE_PATH: &str = "sites/";
 
 async fn app_service(
     req: HttpRequest,
@@ -82,12 +82,10 @@ async fn app_service(
                     &DecodingKey::from_secret(secret.as_bytes()),
                     &Validation::default(),
                 );
-                match token {
-                    Ok(_) => {}
-                    Err(_) => {
-                        session.remove("auth_token");
-                        return AppResponse::File(index_file.ok());
-                    }
+
+                if token.is_err() {
+                    session.remove("auth_token");
+                    return AppResponse::File(index_file.ok());
                 }
 
                 return redirect;
@@ -148,6 +146,11 @@ fn get_site_config() -> SiteConfiguration {
     let mut snake_config = SPAConfig::new("snake");
     snake_config.restrict_route("life", "/snake");
     snake_config.restrict_route_to_admin("admin", "/snake");
+    snake_config.disallow_logged_in("login", "/snake");
+
+    let mut login_config = SPAConfig::new("login");
+    login_config.disallow_logged_in("", "/snake");
+    site_configuration.add_spa(login_config);
 
     let qwik_test_config = StaticConfig::new("qwik-test");
 
@@ -186,7 +189,7 @@ async fn main() -> std::io::Result<()> {
             .wrap(
                 SessionMiddleware::builder(
                     CookieSessionStore::default(),
-                    Key::from(dotenv::var("SECRET").unwrap().as_bytes()),
+                    Key::from(dotenv::var("SECRET").expect("SECRET must be set in .env file!").as_bytes()),
                 )
                 .cookie_secure(false)
                 .build(),
